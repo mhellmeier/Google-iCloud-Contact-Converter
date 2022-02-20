@@ -1,0 +1,17 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:FirstExample Lastname
+N:Lastname;FirstExample;;;
+EMAIL;TYPE=INTERNET;TYPE=HOME:email1@example.com
+EMAIL;TYPE=INTERNET;TYPE=WORK:email2@example.com
+TEL;TYPE=HOME:+49 172 1234567
+TEL;TYPE=CELL:+49 152 9876543
+TEL;TYPE=WORK:+49 162 0000000
+item1.TEL:+49 123 4567890
+item1.X-ABLabel:
+ADR;TYPE=WORK:;;Platz d. Republik 2;Berlin;;10557;DE;Platz d. Republik 2\n10557 Berlin\nDE
+item2.ADR:;;Platz d. Republik 1;Berlin;;10557;DE;Platz d. Republik 1\n10557 Berlin\nDE
+item2.X-ABLabel:
+BDAY;X-APPLE-OMIT-YEAR=1604:1604-12-12
+CATEGORIES:myContacts
+END:VCARD
